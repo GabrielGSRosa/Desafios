@@ -1,0 +1,4 @@
+O objetivo deste código foi testar o sistema de temas para uma página, com opção de ativar e desativar através de um único botão.
+Problema do código: Ao alterar o tema da página para Escuro/Dark, a cor das letras deveria mudar para branco.
+
+Solução: No style.css, existe um problema com o comando fontColor, o "c" que você encontra nos códigos está minúsculo. Esse pequeno detalhe quebra toda a linha de códigos referente a cor da fonte  
