@@ -1,0 +1,78 @@
+Para entender como funcionam as regras de CSS, imagine que você tenha uma chave antiga e uma série de portas em um corredor longo.
+
+Primeiro, você seleciona uma porta. Então, você destranca a porta com a chave.
+
+Depois de ter acesso a uma sala, você pode decorá-la como quiser. Você pode pintar as paredes de azul ou definir o piso como sendo de madeira.
+
+Você seleciona uma sala e define as regras sobre como ela deve parecer.
+
+Você pode aplicar o mesmo estilo a várias salas, que é exatamente como funciona o CSS!
+
+Os atributos personalizados são chamados de .list e #msg.
+
+A lista do seletor de classe tem um prefixo de período,
+
+enquanto o seletor de ID é msg e tem um prefixo de sinal de libra.
+
+Os nomes são arbitrários, desde que eles correspondam ao que você definiu no HTML.
+
+O seletor de :root representa o elemento <html> na página HTML.
+
+Para esse tipo de tarefa, uma melhor prática é definir um conjunto de variáveis CSS globais no elemento :root.
+
+Aqui, você define três variáveis de cor anexadas à raiz da página
+
+O seletor * é universal e se aplica a todos os elementos da página (exceto quando um seletor de elemento mais específico o substitui).
+
+O que é JavaScript?
+O JavaScript (ou ECMAScript) é uma linguagem de programação que ajuda você a adicionar interatividade à sua página da Web.
+
+Quando você seleciona um botão, o JavaScript é o código que define o evento ou o comportamento que ocorrerá, assim como abrir uma janela pop-up.
+
+Usando JavaScript, você pode adicionar ou remover conteúdo, como o texto da página da Web, sem recarregá-lo.
+
+Como um desenvolvedor para a Web, você pode usar o navegador para testar e obter comentários sobre seus scripts.
+
+Neste módulo, você configurará o arquivo JavaScript, criará um botão para alternar entre temas claros e escuros e conectará o botão ao código JavaScript que executa a alternância de tema real.
+
+Quando isso for feito, você verificará o projeto concluído nas ferramentas para desenvolvedores.
+
+Vincular ao JavaScript
+Assim como o CSS, você pode adicionar JavaScript diretamente à página HTML, mas recomendamos a você não fazer isso.
+
+Por exemplo, você pode criar um alerta de pop-up adicionando <script>alert('Hello World')</script> em qualquer lugar no corpo.
+
+A marca de script <script> nos permitirá vincular a um arquivo JavaScript externo.
+
+O elemento de script pode ser colocado no <head> ou em outro lugar no <body>.
+
+No entanto, colocar <script> no final da seção <body> permite que todo o
+
+conteúdo da página seja exibido na tela primeiro, carregando o script em seguida.
+
+Usar o elemento <noscript> é um exemplo de tolerância a falhas ou degradação gradual.
+
+Podemos detectar quando um recurso não é compatível
+
+ou não está disponível e nos planejar para essa eventualidade.
+
+Configurar o modo estrito
+Quando você começa a usar o JavaScript, o foco inicial, geralmente, é trabalhar com números, matemática, manipulação de texto, datas e armazenamento de informações.
+
+Às vezes, o JavaScript faz suposições sobre o tipo de dados que você insere. Atribuição, matemática ou igualdade lógica podem gerar resultados inesperados.
+
+O JavaScript tenta ser amigável e ele tenta fazer com que o código funcione e forneça uma solução, mesmo que o resultado venha a ser um erro.
+
+Para combater essas deficiências, você pode ativar o modo estrito, que reduz erros silenciosos, melhora o desempenho, fornece mais avisos e menos recursos não seguros.
+
+No Visual Studio Code, abra o arquivo app.js e digite: ‘use strict’
+
+Adicionar um botão
+Você precisa elaborar alguma forma de permitir que o usuário alterne entre o tema claro e escuro em sua página da Web.
+
+Nesse cenário, isso é feito com um elemento de botão, que é o que veremos a seguir!
+
+Na página HTML, adicione um elemento <button>.
+
+! <strong> cuidao com as letras em minúsculo, faz toda a diferença no js e css </strong> !
+
