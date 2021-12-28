@@ -1,5 +1,5 @@
 O objetivo deste código foi testar o sistema de temas para uma página, com opção de ativar e desativar através de um único botão.
-Problema do código: Ao alterar o tema da página para Escuro/Dark, a cor das letras deveria mudar para branco.
+Problema do código: Ao alterar o tema da página para Escuro/Dark a cor das letras deveria mudar para branco.
 
 
 #SOLUÇÃO
